@@ -1,4 +1,4 @@
-# File Searcher
+# Interactive CLI File Search Utility
 
 A command-line tool to search for files in a directory with options for filtering by filename pattern and modification date. The results are displayed in an interactive, curses-based UI allowing navigation and directory change.
 
@@ -13,21 +13,6 @@ A command-line tool to search for files in a directory with options for filterin
 
 - Python 3.x
 - curses (usually included in the Python standard library)
-
-## Installation
-
-1. Clone the repository:
-
-    `
-    git clone https://github.com/PATH/find_file.git
-    `
-
-
-2. Create a virtual environment and activate it (optional):
-
-    `python -m venv venv`
-
-    `source venv/bin/activate  # On Windows use venv\Scripts\activate`
 
 ## Usage
 
