@@ -2,7 +2,7 @@
 
 ## Summary
 
-This script allows users to extract thumbnails from video files. It supports both a command-line interface for extracting thumbnails from single videos or batches of videos and a graphical user interface for interactively selecting thumbnails.
+This script allows you to extract thumbnails from video files. It supports both a command-line interface for extracting thumbnails from single videos or batches of videos and a graphical user interface for interactively selecting thumbnails.
 
 ## Requirements
 
