@@ -14,7 +14,7 @@ pip install moviepy opencv-python-headless PyQt5
 
 ## CLI Usage Instructions
 
-###Options
+### Options
 
 ```
 usage: vid2thumb.py [-h] [-v VIDEO] [-t TIMESTAMP] [-o OUTPUT] [-d DIRECTORY]
@@ -33,7 +33,7 @@ optional arguments:
                         Directory for batch processing.
 ```
 
-###Extract a Thumbnail from a Single Video (CLI)
+### Extract a Thumbnail from a Single Video (CLI)
 
 To extract a thumbnail from a single video, specify the video file path and optionally provide a timestamp (in seconds). If no timestamp is provided, a random thumbnail will be extracted.
 
@@ -47,7 +47,7 @@ python3 vid2tumb.py -v /path/to/video.mp4 -o /path/to/output_thumbnail.jpg -t 37
 - `-o /path/to/output_thumbnail.jpg` (Optional) Specifies the output path for the thumbnail. If omitted, the default is thumbnail.jpg in the current directory.
 - `-t 37.5` (Optional) Specifies the timestamp in seconds to extract the thumbnail. If omitted, a random timestamp is used.
 
-###Batch Extract Thumbnails from All Videos in a Directory (CLI)
+### Batch Extract Thumbnails from All Videos in a Directory (CLI)
 
 To extract thumbnails from all video files in a directory, specify the directory path and optionally provide a timestamp. If no timestamp is provided, random thumbnails will be extracted for each video.
 
@@ -58,7 +58,7 @@ python3 vid2tumb.py -d /path/to/directory -t 37.5
 - `-d /path/to/directory` Specifies the path to the directory containing video files.
 - `-t 15.0` (Optional) Specifies the timestamp in seconds to extract the thumbnails. If omitted, a random timestamp is used for each video.
 
-###Exmples
+### Exmples
 
 1) Extract a random thumbnail from a single video:
 
@@ -84,7 +84,7 @@ python3 vid2thumb.py -d /path/to/directory
 python3 vid2thumb.py -d /path/to/directory -t 15.0
 ```
 
-##GUI Usage Instructions
+## GUI Usage Instructions
 
 To use the GUI, simply run the script without any command-line arguments:
 
